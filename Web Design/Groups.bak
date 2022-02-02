@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="style.css"> 
+<meta charset="UTF-8"> 
+<meta name="author" content="Group 13 21/22">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- This addes an icon on the tab bar in a browser, add to href once found-->
+<link rel="shortcut icon" href="">
+
+</head>
+<body> 
+    <header>
+        <a href="index.html"><img src="pink_panther.jpg" class="banner" alt="Pink Panthers Logo"></a>
+        <h1>Pink Panthers Explorer Scout Unit</h1>
+        <input type="text" placeholder="Search..."> 
+        <nav>
+			<ul>
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="badges.htm">Badges and Awards</a></li>
+            <li><a class='active' href="activity.htm">Activities</a></li>
+            <li><a href="groups.htm">Scout Groups</a></li>
+            <li><a href="gallery.htm">Gallery</a></li> 
+            <li><a href="contact.htm">Contact us</a></li>
+			</ul>
+        </nav>
+        
+        <hr> 
+    </header>
+
+<main> 
+    <h1>Neighboring Scout Groups </h1>
+    <!--- This is where the interactive map will be place. For the Alpha test a image will be used instead of it -->
+    <!-- Once we move to alpha we should add the interactive map.-->
+    <!-- Have a look at: https://developers.google.com/maps/documentation/javascript/adding-a-google-map -->
+    <div id="map"> 
+        <img src="" alt="interactive map placeholder">
+    </div>
+    <article> 
+        <h2> Further Information</h2>
+        <p> Insert details about scout groups from the website</p>
+    </article>
+
+
+</main>
+
+<footer> 
+    <p>© PinkPantherESU  </p>
+    <p> <a href="contact.html"> Contact Us</a></p>
+    <p><a href="privacy.html"> Privacy Policy</a></p>
+    <p> Designed by: <a href="https://github.com/Froders"> Tom Frodsham </a>, Kyle Muirhead, and Lewis Naylor</p> 
+       
+</footer>
+
+
+
+</body>
+
+
+
+
+</html>

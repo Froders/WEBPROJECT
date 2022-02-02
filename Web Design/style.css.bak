@@ -1,0 +1,40 @@
+* {margin:0;padding:0;}
+
+/* Main */
+header, nav, main, footer {clear:both}
+
+body {margin:auto}
+
+
+/* text */
+h1 {font-size:28pt; font-family:verdana}
+h2 {font-size:26pt; text-align:center; font-family:verdana;color:black; margin:20px}
+h3 {font-size:20pt; text-align:left; font-family:verdana;color:black}
+p, ul {font-size:14pt; font-family:verdana;color:black}
+
+/*Header*/
+header {height:150px;padding:50px}
+header p {margin-top:5px;margin-left:10px;font-family:verdana;text-align:left;color:white;font-size:15pt}
+h1 {display:inline;margin:20px;color:#f7a8d1}
+
+/*nav*/
+nav {height:50px}
+nav ul {list-style-type:none}
+nav ul li {float:left;text-align:center; margin-left:60px}
+nav ul li a {display:block;padding:13.5px; color:black}
+nav ul li a:hover {color:cccccc}
+.active {color:#f7a8d1}
+
+/*div*/
+div {float:left}
+.activity { width:950px; margin:5px;height:250px;padding:5px }
+.activity p { font-size:12pt; margin:10px }
+
+
+/*footer*/
+footer {display:block;height:100px}
+footer p { font-family:verdana;text-align:left;color:black;font-size:20px;padding:20px;float:left}
+
+/*images*/
+.banner {width:200px;height:150px;float:left; padding-left:20px}
+.activityimg {width:200px;height:170px;display:inline;margin:10px; float:right; margin:40px}

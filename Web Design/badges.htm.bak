@@ -1,11 +1,10 @@
-<!DOCTYPE html>
 <html>
 <!-- This page is used as a template document for a HTML Page and Should not be displayed to the user-->
 <head> 
     <title>DO NOT DISPLAY - Template Page</title>
     <meta name="description" content="Template Page"> 
     <!-- Insert Stylesheet link into the link below -->
-    <link rel="stylesheet" href=""> 
+    <link rel="stylesheet" href="style.css"> 
     <meta charset="UTF-8"> 
     <meta name="author" content="Group 13 21/22">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,16 +14,18 @@
 </head>
 <body> 
     <header>
-        <img src="" alt="Pink Panthers Logo"> 
-        <h1> <a href="index.html"> Pink Panthers Explorer Scout Unit</a></h1>
+        <a href="index.html"><img src="pink_panther.jpg" class="banner" alt="Pink Panthers Logo"></a>
+        <h1>Pink Panthers Explorer Scout Unit</h1>
         <input type="text" placeholder="Search..."> 
-        <nav> 
-            <a href="index.html">Home</a>
-            <a href="badges.html">Badges and Awards</a>
-            <a href="activity.html">Activities</a>
-            <a href="groups.html">Scout Groups</a>
-            <a href="gallery.html">Gallery</a> 
-            <a href="contact.html">Contact us</a>
+        <nav>
+			<ul>
+            <li><a href="index.htm">Home</a></li>
+            <li><a class='active' href="badges.htm">Badges and Awards</a></li>
+            <li><a href="activity.htm">Activities</a></li>
+            <li><a href="groups.htm">Scout Groups</a></li>
+            <li><a href="gallery.htm">Gallery</a></li> 
+            <li><a href="contact.htm">Contact us</a></li>
+			</ul>
         </nav>
         
         <hr> 
@@ -48,7 +49,6 @@
             </p>
             <img src="" alt="Badge Image placeholder">
         </div>
-        <hr>
             <!-- This is a template of adding badges --> 
             <div id="awards1" class="awards">
                 <h2> Award Name</h2>
