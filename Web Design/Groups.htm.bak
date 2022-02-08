@@ -31,15 +31,13 @@
     </header>
 
 <main> 
-    <h1>Neighboring Scout Groups </h1>
+    <h2>Neighboring Scout Groups </h2>
     <!--- This is where the interactive map will be place. For the Alpha test a image will be used instead of it -->
     <!-- Once we move to alpha we should add the interactive map.-->
     <!-- Have a look at: https://developers.google.com/maps/documentation/javascript/adding-a-google-map -->
-    <div id="map"> 
-        <img src="" alt="interactive map placeholder">
-    </div>
+        <img class="map" src="" alt="interactive map placeholder">
     <article> 
-        <h2> Further Information</h2>
+        <h3> Further Information</h3>
         <p> Insert details about scout groups from the website</p>
     </article>
 
@@ -48,8 +46,8 @@
 
 <footer> 
     <p>© PinkPantherESU  </p>
-    <p> <a href="contact.html"> Contact Us</a></p>
-    <p><a href="privacy.html"> Privacy Policy</a></p>
+    <p> <a href="contact.htm"> Contact Us</a></p>
+    <p><a href="privacy.htm"> Privacy Policy</a></p>
     <p> Designed by: <a href="https://github.com/Froders"> Tom Frodsham </a>, Kyle Muirhead, and Lewis Naylor</p> 
        
 </footer>

@@ -32,26 +32,26 @@
     </header> 
 
     <main> 
-        <h1>Gallery</h1>
-        <h2>Here you will find pictures taken from our recent events!</h2>
+        <h2>Gallery</h2>
+		<div class="subheading">
+        <h3>Here you will find pictures taken from our recent events!</h3>
         <p>All picture are taken within our <a href="privacy.html"> privacy policy. </a></p>
-        <img src="" alt="placeholder image">
-        <img src="" alt="placeholder image">
-        <img src="" alt="placeholder image">
-        <img src="" alt="placeholder image">
-        <img src="" alt="placeholder image">
-        <img src="" alt="placeholder image">
-        <img src="" alt="placeholder image">
-        <img src="" alt="placeholder image">
-        <img src="" alt="placeholder image">
-        <img src="" alt="placeholder image">
-        <img src="" alt="placeholder image">
+		</div><br>
+        <img class="gallery" src="" alt="placeholder image">
+        <img class="gallery" src="" alt="placeholder image">
+        <img class="gallery" src="" alt="placeholder image">
+        <img class="gallery" src="" alt="placeholder image">
+        <img class="gallery" src="" alt="placeholder image">
+        <img class="gallery" src="" alt="placeholder image">
+        <img class="gallery" src="" alt="placeholder image">
+        <img class="gallery" src="" alt="placeholder image">
+        <img class="gallery" src="" alt="placeholder image">
     </main>
 
     <footer> 
         <p>© PinkPantherESU  </p>
-        <p> <a href="contact.html"> Contact Us</a></p>
-        <p><a href="privacy.html"> Privacy Policy</a></p>
+        <p> <a href="contact.htm"> Contact Us</a></p>
+        <p><a href="privacy.htm"> Privacy Policy</a></p>
         <p> Designed by: <a href="https://github.com/Froders"> Tom Frodsham </a>, Kyle Muirhead, and Lewis Naylor</p> 
            
     </footer>

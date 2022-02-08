@@ -9,12 +9,12 @@
     <meta name="author" content="Group 13 21/22">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This addes an icon on the tab bar in a browser, add to href once found-->
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="pink_panther.jpg">
 
 </head>
 <body> 
     <header>
-        <a href="index.html"><img src="pink_panther.jpg" class="banner" alt="Pink Panthers Logo"></a>
+        <a href="index.htm"><img src="pink_panther.jpg" class="banner" alt="Pink Panthers Logo"></a>
         <h1>Pink Panthers Explorer Scout Unit</h1>
         <input type="text" placeholder="Search..."> 
         <nav>
@@ -32,14 +32,15 @@
     </header> 
 
     <main> 
-        <h1>Contact Us</h1>
-        <h2> Please fill in the form below if you would like to contact us:</h2> 
-        <hr>
+        <h2>Contact Us</h2>
+		<div class="subheading">
+        <h3> Please fill in the form below if you would like to contact us:</h3>
+		</div>
         <form> 
-            <label for="name" > Full Name </label>
-            <input type="text" id="name" name="name" required><br> 
+            <label for="name" >Full Name</label>
+            <input type="text" id="name" name="name" required><br><br> 
             <label for="email">Email</label>
-            <input type="email" id="email" name="email"required><br> 
+            <input type="email" id="email" name="email"required><br><br> 
             <label for="reason">Reason for contacting:</label>
             <select name="reason" id="cars" required>
                 <option value="newexplorer">My child wants to join.</option>
@@ -47,9 +48,9 @@
                 <option value="newleader">I want to become a leader.</option>
                 <option value="infoleader">I want info about being a leader.</option>
                 <option value="other"> Other(please specify below)</option>
-            </select>
+            </select><br><br>
             <label for="moreinfo"> Please give us more info to be able to complete your request.</label>
-            <input type="text" id="moreinfo" name="Info" required><br>
+            <input type="text" id="moreinfo" name="Info" required><br><br><br>
             <input type="submit" value="Submit">
         </form>
         <hr>

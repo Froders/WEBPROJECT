@@ -10,11 +10,10 @@ body {margin:auto}
 h1 {font-size:28pt; font-family:verdana}
 h2 {font-size:26pt; text-align:center; font-family:verdana;color:black; margin:20px}
 h3 {font-size:20pt; text-align:left; font-family:verdana;color:black}
-p, ul {font-size:14pt; font-family:verdana;color:black}
+p, ul {font-size:12pt; font-family:verdana;color:black; margin:10px}
 
 /*Header*/
 header {height:150px;padding:50px}
-header p {margin-top:5px;margin-left:10px;font-family:verdana;text-align:left;color:white;font-size:15pt}
 h1 {display:inline;margin:20px;color:#f7a8d1}
 
 /*nav*/
@@ -27,9 +26,13 @@ nav ul li a:hover {color:cccccc}
 
 /*div*/
 div {float:left}
-.activity { width:950px; margin:5px;height:250px;padding:5px }
-.activity p { font-size:12pt; margin:10px }
-
+article { padding:30px; margin-left:218px; margin-top:10px; height:100px}
+.info { width:950px; margin:5px;height:250px;padding:5px }
+.main-questions { width:700px; margin:5px;height:1150px;padding:25px; }
+.image-slideshow { float:right }
+.big-contact-us-button { padding:30px; margin-left:250px; margin-top:10px; height:100px}
+.subheading { margin-left:50px; }
+.subheading h3 { font-size:16 }
 
 /*footer*/
 footer {display:block;height:100px}
@@ -37,4 +40,10 @@ footer p { font-family:verdana;text-align:left;color:black;font-size:20px;paddin
 
 /*images*/
 .banner {width:200px;height:150px;float:left; padding-left:20px}
-.activityimg {width:200px;height:170px;display:inline;margin:10px; float:right; margin:40px}
+.infoimg {width:200px;height:170px;display:inline;margin:10px; float:right; margin:40px}
+.image-slideshow img { width:300px;height:200px;display:block;margin-bottom:40px;margin-top:30px;margin-right:100px}
+.map { width:800px; height:300px; margin-left:250px }
+.gallery { width:370px; height:220px; margin:20px; }
+
+/*form*/
+form { padding:50px; margin-left:330px }

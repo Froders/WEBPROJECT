@@ -32,14 +32,15 @@
     </header> 
 
     <main> 
-        <h1>Contact Us</h1>
-        <h2> Please fill in the form below if you would like to contact us:</h2> 
-        <hr>
+        <h2>Contact Us</h2>
+		<div class="subheading">
+        <h3> Please fill in the form below if you would like to contact us:</h3>
+		</div><br>
         <form> 
-            <label for="name" > Full Name </label>
-            <input type="text" id="name" name="name" required><br> 
+            <label for="name" >Full Name</label>
+            <input type="text" id="name" name="name" required><br><br> 
             <label for="email">Email</label>
-            <input type="email" id="email" name="email"required><br> 
+            <input type="email" id="email" name="email"required><br><br> 
             <label for="reason">Reason for contacting:</label>
             <select name="reason" id="cars" required>
                 <option value="newexplorer">My child wants to join.</option>
@@ -47,9 +48,9 @@
                 <option value="newleader">I want to become a leader.</option>
                 <option value="infoleader">I want info about being a leader.</option>
                 <option value="other"> Other(please specify below)</option>
-            </select>
+            </select><br><br>
             <label for="moreinfo"> Please give us more info to be able to complete your request.</label>
-            <input type="text" id="moreinfo" name="Info" required><br>
+            <input type="text" id="moreinfo" name="Info" required><br><br><br>
             <input type="submit" value="Submit">
         </form>
         <hr>
@@ -57,8 +58,8 @@
 
     <footer> 
         <p>© PinkPantherESU  </p>
-        <p> <a href="contact.html"> Contact Us</a></p>
-        <p><a href="privacy.html"> Privacy Policy</a></p>
+        <p> <a href="contact.htm"> Contact Us</a></p>
+        <p><a href="privacy.htm"> Privacy Policy</a></p>
         <p> Designed by: <a href="https://github.com/Froders"> Tom Frodsham </a>, Kyle Muirhead, and Lewis Naylor</p> 
            
     </footer>

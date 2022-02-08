@@ -31,38 +31,39 @@
         <hr> 
     </header> 
 
-    <main> 
+    <main>
+		<h2>Badges</h2>
         <!-- This is a template of adding badges --> 
-        <div id="badge1" class="badges">
-            <h2> Badge Name</h2>
+        <div class="info">
+            <h3> Badge Name</h3>
             <p> Description of a badge
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum varius duis at consectetur lorem donec massa. Semper feugiat nibh sed pulvinar proin gravida hendrerit. Eu turpis egestas pretium aenean pharetra magna ac placerat. Mauris augue neque gravida in fermentum. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. Habitant morbi tristique senectus et netus. Quis risus sed vulputate odio ut enim blandit. Sed enim ut sem viverra aliquet eget sit. Massa eget egestas purus viverra accumsan in nisl.
             </p>
-            <img src="" alt="Badge Image placeholder">
+            <img class="infoimg" src="" alt="Badge Image placeholder">
         </div>
         <hr>
         <!-- This is a template of adding badges --> 
-        <div id="badge2" class="badges">
-            <h2> Badge Name</h2>
+        <div class="info">
+            <h3> Badge Name</h3>
             <p> Description of a badge
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum varius duis at consectetur lorem donec massa. Semper feugiat nibh sed pulvinar proin gravida hendrerit. Eu turpis egestas pretium aenean pharetra magna ac placerat. Mauris augue neque gravida in fermentum. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. Habitant morbi tristique senectus et netus. Quis risus sed vulputate odio ut enim blandit. Sed enim ut sem viverra aliquet eget sit. Massa eget egestas purus viverra accumsan in nisl.
             </p>
-            <img src="" alt="Badge Image placeholder">
+            <img class="infoimg" src="" alt="Badge Image placeholder">
         </div>
             <!-- This is a template of adding badges --> 
-            <div id="awards1" class="awards">
-                <h2> Award Name</h2>
+            <div class="info">
+                <h3> Award Name</h3>
                 <p> Description of the Award
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum varius duis at consectetur lorem donec massa. Semper feugiat nibh sed pulvinar proin gravida hendrerit. Eu turpis egestas pretium aenean pharetra magna ac placerat. Mauris augue neque gravida in fermentum. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. Habitant morbi tristique senectus et netus. Quis risus sed vulputate odio ut enim blandit. Sed enim ut sem viverra aliquet eget sit. Massa eget egestas purus viverra accumsan in nisl.
                 </p>
-                <img src="" alt="Badge Image placeholder">
+                <img class="infoimg" src="" alt="Badge Image placeholder">
             </div>
     </main>
 
     <footer> 
         <p>© PinkPantherESU  </p>
-        <p> <a href="contact.html"> Contact Us</a></p>
-        <p><a href="privacy.html"> Privacy Policy</a></p>
+        <p> <a href="contact.htm"> Contact Us</a></p>
+        <p><a href="privacy.htm"> Privacy Policy</a></p>
         <p> Designed by: <a href="https://github.com/Froders"> Tom Frodsham </a>, Kyle Muirhead, and Lewis Naylor</p> 
     </footer>
 
